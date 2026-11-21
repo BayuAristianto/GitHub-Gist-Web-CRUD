@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org">
+<suite name="GitHub Gist E2E CRUD Suite">
+    <listeners>
+        <listener class-name="core.ExtentReportListener"/>
+    </listeners>
+    <test name="Positive and Negative Gist CRUD Tests">
+        <classes>
+            <class name="tests.GistCrudTest"/>
+            <class name="tests.GistNegativeTest"/>
+        </classes>
+    </test>
+</suite>
