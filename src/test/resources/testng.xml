@@ -4,7 +4,7 @@
     <listeners>
         <listener class-name="core.ExtentReportListener"/>
     </listeners>
-    <test name="Positive and Negative Gist CRUD Tests">
+    <test name="Regression Positive and Negative Gist CRUD Tests">
         <classes>
             <class name="tests.GistCrudTest"/>
             <class name="tests.GistNegativeTest"/>
